@@ -17,6 +17,20 @@ p {
   color: rgb(255, 255, 255);
 }
 
+a:visited,
+a:link {
+  text-decoration: none;
+  color: rgb(34, 39, 41);
+}
+
+p::first-letter {
+  font-size: 1.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 hr {
   border-style: solid;
   border-radius: 20%;
@@ -26,4 +40,9 @@ hr {
 h1,
 h2 {
   color: rgb(34, 39, 41);
+}
+
+span {
+  font-size: large;
+  color: white;
 }
